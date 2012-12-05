@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Unit Tests</title>
+
+        <!-- Die beiden f√ºr QUnit ben√∂tigten Dateien-->
+        <link href="lib/css/qunit-latest.css" rel="stylesheet"/>
+        <link href="lib/css/todolist.css" rel="stylesheet"/>
+
+        <script src="lib/js/jquery-latest.min.js"></script>
+        <script src="lib/js/qunit-latest.js"></script>
+        <script src="lib/js/businessClasses.js"></script>
+        <script src="lib/js/persistenceMock.js"></script>
+        <script src="lib/js/productioncode.js"></script>
+        <script src="lib/js/unittests.js"></script>
+    </head>
+    <body>
+        <!--In dieses div wird die Unit-Test-Ausgabe geschrieben -->
+        <div id="qunit"></div>
+        <div class="todoList" id="todo">
+		<h2 class="todolist_header">TodoListentitel</h2>
+		<div id="item-list">
+			<div id="listitem1" class="unchecked_listitem item_odd 				listitem">
+				listitem1
+				<button class="del" id="listitem1_del">
+					löschen
+				</button>
+				<button class="check" id="listitem1_check">
+					erledigt
+				</button>
+			</div>
+			<div id="listitem2" class="checked_listitem item_even  				listitem">
+				listitem2
+				<button class="del" id="listitem1_del">
+					löschen
+				</button>
+			</div>
+			...
+		</div>
+		<div id="item-editor">
+			<label>ItemText: </label>
+			<input type="text" size="18" id="itemTextInput"/>
+			<button id="insert-button">einfügen</button>
+		</div>
+	</div>
+
+    </body>
+</html>

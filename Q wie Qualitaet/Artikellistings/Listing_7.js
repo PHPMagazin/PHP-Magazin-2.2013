@@ -1,0 +1,1 @@
+// ...equal(names.length , 6,       "Es sind 5 todoListen Namen im persistenceMock hinterlegt");ok(names.length == 6,    "Es sind 5 todoListen Namen im persistenceMock hinterlegt");// ...

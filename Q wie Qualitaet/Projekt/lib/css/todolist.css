@@ -1,0 +1,57 @@
+/* 
+    Document   : todolist
+    Created on : 27.11.2012, 13:52:21
+    Author     : X9DFD
+    Description:
+        stylesheet for the TodoListExample.
+*/
+
+.todoList {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height:400px;
+    width: 280px;
+    padding: 10px;
+    
+    overflow: auto;
+}
+
+.todolist_header{
+    color: #0d3349;
+    background-color: #aaaaff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.item_even{
+    color:black;
+    background-color: #e0e0ff;
+    margin:2px;
+    padding:5px;
+    border-radius: 4px;
+}
+
+.item_odd{
+    color:black;
+    background-color: #c0c0ff;
+    margin:2px;
+    padding:5px;
+    border-radius: 4px;
+}
+
+.checked_listitem{
+    text-decoration: line-through;
+}
+
+.del{
+   float: right;
+}
+.check{
+    float: right;
+}
+#item-editor{
+    margin-top: 20px;
+    vertical-align: bottom;
+}

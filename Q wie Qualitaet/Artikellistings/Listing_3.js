@@ -1,0 +1,1 @@
+test( "BusinessClass TodoList Konstruktor Test", function() {    //Initialisierung des Tests    var name = "Allgemein";    var todoList = new TodoList(name);        //Durchführung des Tests (Auswertung der Annahmen)    ok(name == todoList.listname, "Der Name des erzeugten Objekts muss dem Konstruktornamen entsprechen");});

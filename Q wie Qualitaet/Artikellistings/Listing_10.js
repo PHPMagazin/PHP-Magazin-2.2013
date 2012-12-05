@@ -1,0 +1,1 @@
+//methodenaufruf    removeEvenOddLayout();    //daten sammeln    var even_items = $(".item_even").length;    var odd_items = $(".item_odd").length;    //Auswertung der Annahmen    equal(even_items,0, "Nach entfernen der css-Klassen keine even Items mehr 		vorhanden.");    equal(odd_items ,0, "Nach entfernen der css-Klassen keine odd Items mehr 		vorhanden.");
