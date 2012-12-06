@@ -1,0 +1,1 @@
+array(2) {  [0] => array(2) {    ["timeout"] => int(5)    ["endpoint"] => string(60) "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"  }  [1] => array(1) {    ["timeout"] => int(10)  }}

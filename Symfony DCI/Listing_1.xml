@@ -1,0 +1,1 @@
+<parameters>  <parameter key="php_mag_ecb.httpclient.class">Guzzle\Http\Client</parameter></parameters><services>  <service id="php_mag_ecb.httpclient" class="%php_mag_ecb.httpclient.class%" /></services>

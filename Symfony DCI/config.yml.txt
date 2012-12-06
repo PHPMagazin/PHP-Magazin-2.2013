@@ -1,0 +1,1 @@
+php_mag_ecb:  timeout: 5  endpoint: http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
