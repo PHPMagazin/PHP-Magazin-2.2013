@@ -1,0 +1,1 @@
+function memoizeFib(&$func) {  $memory = array();  $func   = function($num) use (&$memory, $func) {    if (!array_key_exists($num, $memory)) {      $memory[$num]    = $func($num);    }    return $memory[$num];  };}memoizeFib($fib);

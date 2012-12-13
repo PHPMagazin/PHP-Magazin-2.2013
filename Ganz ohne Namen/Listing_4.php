@@ -1,0 +1,1 @@
+// PHP 5.4$greeter = function() {  echo 'Hello, I am '.$this->name;};class Hero {  public $name;  public function __construct($name) {    $this->name = $name;  }}$luke = new Hero('Luke');$lukeGreets = $greeter->bindTo($luke);$lukeGreets(); // Hello, I am Luke$han = new Hero('Han');$hanGreets = $greeter->bindTo($han);$hanGreets(); // Hello, I am Han

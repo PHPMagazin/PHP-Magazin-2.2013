@@ -1,0 +1,1 @@
+var greeter = function() {  console.log('Hello, I am ' + this.name);},luke = { name: 'Luke' },han  = { name: 'Han' };greeter.call(luke); // Hello, I am Lukegreeter.call(han); // Hello, I am Han

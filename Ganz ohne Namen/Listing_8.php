@@ -1,0 +1,1 @@
+function cacheFib($func) {  $memory = array();  return function($num) use (&$memory, $func) {    if (!array_key_exists($num, $memory)) {      $memory[$num] = $func($num);    }    return $memory[$num];  };}$cachedFib = cacheFib($fib);
