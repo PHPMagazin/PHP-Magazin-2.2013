@@ -1,0 +1,1 @@
+var desiredFrames = 35,    secondInMilis = 1000,    interval      = secondInMillis / desiredFrames;function draw() {  // (...)}setInterval(function() {  draw();}, interval);

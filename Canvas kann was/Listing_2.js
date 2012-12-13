@@ -1,0 +1,1 @@
+var imageData = context.getImageData(0, 0, canvas.width, canvas.height);// manipulation von imageData.datacontext.putImageData(imageData, 0, 0);

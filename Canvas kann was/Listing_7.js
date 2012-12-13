@@ -1,0 +1,1 @@
+function draw(timestamp) {  var totalTime = timestamp - startTime();  setTimeout(function(){    requestAnimationFrame(draw);  }, 1000 / 5);}var startTime = Date.now();requestAnimationFrame(draw);// Alternativ://   webkitRequestAnimationFrame(draw);//   mozRequestAnimationFrame(draw);//   oRequestAnimationFrame(draw);//   msRequestAnimationFrame(draw);

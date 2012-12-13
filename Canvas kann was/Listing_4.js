@@ -1,0 +1,1 @@
+(...)context.fillStyle = '#ff0000';context.save();context.fillStyle = '#00ff00';context.save();context.fillStyle = '#0000ff';context.save();alert(context.fillStyle); // '#0000ff'context.restore();alert(context.fillStyle); // '#0000ff'context.restore();alert(context.fillStyle); // '#00ff00'context.restore();alert(context.fillStyle); // '#ff0000'(...)

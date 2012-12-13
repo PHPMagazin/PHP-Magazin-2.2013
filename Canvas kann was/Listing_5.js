@@ -1,0 +1,1 @@
+(...)var PI_DIV_180 = Math.PI / 180,    degree     = 45,    radians    = degree * PI_DIV_180;context.save();context.translate(100, 100);context.rotate(radians);context.scale(0.5);context.fillStyle = '#ff00ff';context.fillRect(0, 0, 100, 100);context.restore();(...)
