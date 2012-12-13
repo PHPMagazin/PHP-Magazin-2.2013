@@ -1,0 +1,1 @@
+public function ev_response($buffer,$id){  event_buffer_disable(  $this->buffers[$id], EV_READ | EV_WRITE);  event_buffer_free($this->buffers[$id]);  fclose($this->connections[$id]);}

@@ -1,0 +1,1 @@
+$socket = stream_socket_server (  'tcp://127.0.0.1:8083',  $errno,  $errstr);stream_set_blocking($socket, 0);$base = event_base_new();$event = event_new();event_set($event,  $socket,  EV_READ | EV_PERSIST,  array($this, 'ev_accept'),  $base);event_base_set($event, $base);event_add($event);event_base_loop($base);

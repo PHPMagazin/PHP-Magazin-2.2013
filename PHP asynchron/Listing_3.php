@@ -1,0 +1,1 @@
+$req = '';while ($read = event_buffer_read($buffer, 1024)) {  $req .= $read;}// parse $req, process our code// and finally response to the client$resData = 'HTTP/1.1 200 OK’ . "\r\n";event_buffer_write ($buffer, $resData);
