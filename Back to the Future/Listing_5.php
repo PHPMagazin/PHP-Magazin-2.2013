@@ -1,0 +1,1 @@
+...'my_native_date' => array(  'exclude' => 0,  'label' => 'My native date',  'config' => array(    'dbType' => 'date', // Möglich ist: date und datetime    'type' => 'input',    'size' => '8',    'max' => '20',    'eval' => 'date',    'checkbox' => '0',    'default' => '0'  )),...

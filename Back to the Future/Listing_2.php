@@ -1,0 +1,1 @@
+temp.slideImages = FILEStemp.slideImages {  references {    table = pages    uid = 1    fieldName = media  }  # kurz  # references = 1  renderObj = TEXT  renderObj {    data = file:current:publicUrl    wrap = {image : '|', title : ' ', thumb : ' ', url : ''},  }}
